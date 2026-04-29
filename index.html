@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CEP Cursos</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial;
+            background: #000;
+            color: #fff;
+            text-align: center;
+        }
+        
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px;
+            background: #111;
+        }
+        
+        .brand {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .brand img {
+            width: 50px;
+            background: #fff;
+            border-radius: 10px;
+            padding: 3px;
+        }
+        
+        button {
+            background: #5ca8ff;
+            color: #fff;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        
+        .hero {
+            padding: 60px 20px;
+        }
+        
+        .logo {
+            width: 200px;
+            margin: 20px auto;
+            background: #fff;
+            padding: 10px;
+            border-radius: 20px;
+        }
+        
+        section {
+            padding: 40px 20px;
+        }
+        
+        .card {
+            background: #111;
+            padding: 20px;
+            margin: 10px auto;
+            border-radius: 10px;
+            max-width: 300px;
+        }
+        
+        select {
+            background: #222;
+            color: #fff;
+            padding: 12px;
+            border: 1px solid #5ca8ff;
+            border-radius: 10px;
+            font-size: 16px;
+            width: 100%;
+            max-width: 320px;
+            cursor: pointer;
+        }
+        
+        footer {
+            padding: 20px;
+            background: #111;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="brand">
+            <img src="logo.cep.jpeg" alt="CEP Logo">
+            <h2>CEP</h2>
+        </div>
+
+        <a href="https://wa.me/559284475258" target="_blank" rel="noopener noreferrer">
+            <button>WhatsApp</button>
+        </a>
+    </header>
+
+    <div class="hero">
+        <h1>CURSOS PROFISSIONALIZANTES</h1>
+        <p>Invista no seu futuro</p>
+
+        <img class="logo" src="logo.cep.jpeg" alt="CEP Logo">
+
+        <br><br>
+
+        <a href="https://docs.google.com/spreadsheets/d/1kU1Z9GMMyd5xL1d1olcKi_QuD3UjuTsg2RgKwHODpzA/edit" target="_blank" rel="noopener noreferrer">
+            <button>Fazer Inscrição</button>
+        </a>
+
+        <a href="https://www.instagram.com/cepoficial1" target="_blank" rel="noopener noreferrer">
+            <button>Instagram</button>
+        </a>
+    </div>
+
+    <section>
+        <h2>Cursos</h2>
+
+        <div class="card">Informática</div>
+        <div class="card">Administração</div>
+        <div class="card">Enfermagem</div>
+        <div class="card">Inglês</div>
+    </section>
+
+    <section>
+        <h2>Escolha seu curso</h2>
+
+        <label for="curso-select" style="display:block; margin-bottom: 10px;">Selecione o curso de seu interesse:</label>
+        <select id="curso-select" name="cursos">
+            <option value="" disabled selected>Selecione um curso</option>
+            <option value="informatica">Informática</option>
+            <option value="administracao">Administração</option>
+            <option value="enfermagem">Enfermagem</option>
+            <option value="ingles">Inglês</option>
+        </select>
+    </section>
+
+    <footer>
+        <p>© 2026 CEP</p>
+    </footer>
+
+</body>
+
+</html>
